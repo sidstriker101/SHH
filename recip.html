@@ -1,0 +1,54 @@
+<form method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+<p>
+<label>Kids Full Name
+<input type="text" name="customer_name" required>
+</label> 
+</p>
+
+<p>
+<label>Zip Code and Full Address 
+<input type="tel" name="zip&add">
+</label>
+</p>
+
+<p>
+<label>Email 
+<input type="email" name="email_address">
+</label>
+</p>
+
+<p>
+<label>Child Necesities
+<input type="Needs" name="Needs">
+</label>   
+</p>
+
+
+
+<p>
+<label>Pickup Date/Time
+<input type="datetime-local" name="pickup_time" required>
+</label>
+</p>
+	
+<p>
+<label>Pickup Place
+<select id="pickup_place" name="pickup_place">
+<option value="" selected="selected">Select One</option>
+<option value="Companies Address" >Company Address</option>
+<option value="Public Library" >Public Library</option>
+</select>
+</label> 
+</p>
+
+
+<p>
+<label>Special Instructions
+<textarea name="comments" maxlength="500"></textarea>
+</label>
+</p>
+
+<p><button>Submit Booking</button></p>
+
+</form>
