@@ -1,0 +1,8 @@
+[1217/041245:ERROR:file_io.cc(30)] read: expected 36, observed 0
+[1217/042542:ERROR:file_io.cc(30)] read: expected 36, observed 0
+[1217/052439:ERROR:process_info.cc(330)] VirtualQueryEx: Access is denied. (0x5)
+[1217/052439:ERROR:process_info.cc(547)] ReadMemoryInfo failed
+[1217/052439:ERROR:process_reader_win.cc(233)] ReadMemory at 0x6f3b5d80 of 12 bytes failed: Only part of a ReadProcessMemory or WriteProcessMemory request was completed. (0x12B)
+[1217/052439:WARNING:process_snapshot_win.cc(68)] ReadMemory ExceptionInformation failed
+[1217/052439:WARNING:crash_report_exception_handler.cc(61)] ProcessSnapshotWin::Initialize failed
+[1217/052439:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: An attempt was made to access an exiting process.  (0xc000010a)
