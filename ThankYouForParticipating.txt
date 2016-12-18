@@ -1,0 +1,4 @@
+<!DOCTYPE html>
+<html>
+<img src="http://i.imgur.com/V03ZxZa.jpg"/>
+</html>
